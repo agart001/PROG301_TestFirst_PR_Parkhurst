@@ -25,7 +25,7 @@ namespace Algorithms
                 Fib[i] = Fib[i - 1] + Fib[i - 2];
             }
 
-            return Fib[number];
+            return Fib[number - 1];
         }
     }
 }
